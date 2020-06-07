@@ -1,0 +1,5 @@
+com\notepad\qa\pages\NotepadPage.class
+com\notepad\qa\util\TestUtil.class
+com\notepad\qa\pages\FilePage.class
+com\notepad\qa\base\TestBase.class
+com\notepad\qa\pages\EditPage.class
