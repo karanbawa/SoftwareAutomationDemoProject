@@ -52,7 +52,7 @@ public class NotepadPageTest extends TestBase {
     public void checkSaveNewTXTFile() throws InterruptedException {
         notepadPage.clickonFile();
         filePage.clickOnNewButton();
-        driver.findElementByClassName("Scintillaaa").sendKeys("hello");
+        driver.findElementByClassName("Scintilla").sendKeys("hello");
         notepadPage.clickonFile();
         filePage.clickOnSaveButton();
         driver.findElementByName("Desktop").click();
